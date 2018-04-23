@@ -10,8 +10,9 @@
   display: none;
   background-color:#eeeeee;
 }
-.Content a{
+.nav a{
   text-decoration: none;
+  color: black;
 }
 
 button  {
