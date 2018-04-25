@@ -6,7 +6,7 @@
 background-color: white;
 }
 
-.aboutContent,.locationContent,.mediaContent{
+.Content{
   display: none;
   background-color:#eeeeee;
 }
@@ -25,15 +25,13 @@ button {
   background-color: white;
 }
 
-
-
 /* ~ because its a sibling element `*/
-.dropLocation:hover~.locationContent,.dropMedia:hover~.mediaContent,.dropAbout:hover~.aboutContent{
+.dropMenu:hover~.Content{
   display: grid;
 }
 
 /* still displays when the main button is no longer hovered over*/
-.locationContent:hover,.mediaContent:hover,.aboutContent:hover{
+.Content:hover{
   display: grid;
 }
 
